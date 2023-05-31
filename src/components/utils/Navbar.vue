@@ -45,6 +45,9 @@ export default {
         background-color: $secondary-blue;
         border-color: $secondary-blue;
         color: #fff;
+        &:focus{
+            box-shadow: inset;
+        }
     }
     .ms-icon {
         background-color: $tertiary-blue;
