@@ -44,9 +44,9 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Italiano</a></li>
+              <li><a class="dropdown-item" href="#">Inglese</a></li>
+              <li><a class="dropdown-item" href="#">Tedesco</a></li>
             </ul>
           </div>
         </div>
