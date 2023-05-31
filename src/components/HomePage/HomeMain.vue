@@ -2,7 +2,7 @@
     <div class="wrapper py-3">
         <Navbar :links="links"/>
         <h1 class="text-white my-5">Giochi</h1>
-        <h3 class="text-white" v-for="game in getAllGames">{{ game.game }}</h3>
+        <h3 class="text-white">{{ getHighlightedGame }}</h3>
     </div>
 </template>
 
@@ -22,15 +22,15 @@ import Navbar from '../utils/Navbar.vue';
         },
 
         computed: {
-            ...mapGetters(['getAllGames']),
+            ...mapGetters(['getHighlightedGame']),
         },
 
         methods: {
-            ...mapActions(['fetchAllGames'])
+            ...mapActions(['fetchHighlightedGame']),
         },
 
         created(){
-            this.fetchAllGames();
+            this.fetchHighlightedGame();
         }
         
 

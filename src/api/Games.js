@@ -9,12 +9,12 @@ const Games = {
     },
 
     getDiscountGames: async()=> {
-        const response = await axios.get(baseUrl + '/games/discount');
+        const response = await axios.get(baseUrl + '/discount');
         return response.data;
     },
 
     getHighlightedGame: async ()=> {
-        const response = await axios.get(baseUrl + '/games/highlighted');
+        const response = await axios.get(baseUrl + '/highlighted');
         return response.data;
     } 
 }

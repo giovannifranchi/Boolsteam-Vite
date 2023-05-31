@@ -20,7 +20,7 @@ const store = createStore({
         },
 
         getHighlightedGame(state){
-            return state.games.discountGames;
+            return state.games.highlightedGame;
         }
     },
 
@@ -41,17 +41,17 @@ const store = createStore({
 
     actions: {
         async fetchAllGames({commit}){
-            const response =  await Games.getAllgames();
-            commit('setAllGames', response)
+            const response =  await Games.getAllgames()
+            commit('setAllGames', response);
         },
 
         async fetchDiscountGames({commit}){
-            const response = await Games.getDiscountGames();
+            const response = await Games.getDiscountGames()
             commit('setDiscountGames', response);
         },
 
         async fetchHighlightedGame({commit}){
-            const response = await Games.getHighlightedGame();
+            const response = await Games.getHighlightedGame()
             commit('setHighlightedGame', response);
         }
     }

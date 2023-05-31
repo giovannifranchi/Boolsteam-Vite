@@ -10,7 +10,7 @@
 
 <script>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
+import DiscountBoxVue from "./DiscountBox.vue";
 
     export default {
         name: 'SpecialCard',
@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
                 required: true,
             }
         },
-        components: {FontAwesomeIcon},
+        components: {FontAwesomeIcon, DiscountBoxVue},
     }
 </script>
 
