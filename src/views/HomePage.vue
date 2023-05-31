@@ -3,6 +3,7 @@
         <div class="ms-container">
             <HomeMain/>
             <HomeBottomVue/>
+            <HomeGamesList/>
         </div>
     </main>
 </template>
@@ -10,11 +11,12 @@
 <script>
 import HomeMain from '../components/HomePage/HomeMain.vue';
 import HomeBottomVue from '../components/HomePage/HomeBottom.vue';
+import HomeGamesList from '../components/HomePage/HomeGamesList.vue';
 
     export default {
         name: 'HomePage',
 
-        components: {HomeMain, HomeBottomVue},
+        components: {HomeMain, HomeBottomVue, HomeGamesList},
     }
 </script>
 
