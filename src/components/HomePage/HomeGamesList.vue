@@ -1,6 +1,6 @@
 <template>
     <div class="ms-container">
-        <h3 class="text-white">I Giochi</h3>
+        <h3 class="text-white mb-5">I Giochi</h3>
         <ul class="list-unstyled m-0 p-0">
             <li v-for="(game, index) in getAllGames" :key="index" class="mb-3 ms-card">
                 <CardList :info="game"/>

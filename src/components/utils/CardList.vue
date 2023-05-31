@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex gap-5">
+    <div class="d-flex gap-5 position-relative">
         <div class="img-container w-25">
             <img :src="info.thumb" :alt="info.game">
         </div>
@@ -15,13 +15,20 @@
                 <span>Icons</span>
             </div>
         </div>
-
+        <div class="discount p-3 ">
+            <DiscountBox :price="info.price" :discountPercentace="info.discount"/>
+        </div>
     </div>
 </template>
 
 <script>
+import DiscountBox from './DiscountBox.vue';
+
+
     export default {
         name: 'CardList',
+
+        components: { DiscountBox},
 
         props: {
             info: {
@@ -33,5 +40,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+.discount {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    
+}
 </style>
