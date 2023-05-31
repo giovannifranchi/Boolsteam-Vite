@@ -1,7 +1,7 @@
 <template>
-    <footer>
+    <footer class="py-5">
         <div class="container">
-            footer
+            
         </div>
     </footer>
 </template>
@@ -13,5 +13,8 @@
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/partials/variables' as *;
+
+
 
 </style>
