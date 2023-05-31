@@ -26,7 +26,7 @@
       <!-- options -->
       <div class="options align-self-start d-flex align-items-start">
         <div class="install p-1">
-          <font-awesome-icon icon="fa-regular fa-download" />
+          <font-awesome-icon icon="fa-download" />
           <span>Installa Steam</span>
         </div>
         <div class="actions d-flex ps-2 py-1">
