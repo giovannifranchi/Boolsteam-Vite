@@ -39,7 +39,7 @@ export default {
 @use '../../assets/partials/variables' as *;
 
 .ms-navigator{
-    background: linear-gradient(to right, $primary-blue, #8cbfdb);
+    background: linear-gradient(to left, $primary-blue, #8cbfdb);
     color: #fff;
     .ms-search {
         background-color: $secondary-blue;
