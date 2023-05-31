@@ -1,15 +1,18 @@
 <script>
-  import HelloApp from './components/HelloApp.vue';
+  import AppHeaderVue from './components/AppHeader.vue';
+  import AppFooter from './components/AppFooter.vue';
+
+
   export default {
     name: 'App',
-    components: {
-      HelloApp,
-    }
+
+    components: {AppHeaderVue, AppFooter},
   }
 </script>
 
 <template>
-  <HelloApp/>
+  <AppHeaderVue/>
+  <AppFooter/>
 </template>
 
 
