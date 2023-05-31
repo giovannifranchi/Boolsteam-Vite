@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-3"
+    class="py-5"
     v-if="getHighlightedGame"
     :style="{
       backgroundImage: 'url(' + getHighlightedGame.thumb + ')',
@@ -9,14 +9,14 @@
       backgroundSize: 'cover',
     }"
   >
-  <div class="container">
-    <Navbar :links="links" />
-    <h1 class="text-white my-5">Giochi</h1>
-    <div class="d-flex gap-5">
+    <div class="container">
+      <Navbar :links="links" />
+      <h1 class="text-white my-5">Giochi</h1>
+      <div class="d-flex gap-5">
         <SpecialCardVue :info="getHighlightedGame" />
-        <CardInfo :info="getHighlightedGame" class="flex-grow-1 p-5 me-3"/>
+        <CardInfo :info="getHighlightedGame" class="flex-grow-1 p-5 me-3" />
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -52,7 +52,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper {
-  z-index: 99;
-}
+
 </style>
