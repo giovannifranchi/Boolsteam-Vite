@@ -1,6 +1,6 @@
 <template>
   <!-- header -->
-  <header class="">
+  <header>
     <!-- container -->
     <div class="container d-flex align-items-center justify-content-between">
       <!-- Logo -->
