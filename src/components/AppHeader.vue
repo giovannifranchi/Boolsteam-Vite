@@ -25,16 +25,18 @@
       </ul>
       <!-- options -->
       <div class="options align-self-start d-flex align-items-start">
-        <div class="install p-1">
-          <font-awesome-icon icon="fa-download" />
-          <span>Installa Steam</span>
+        <div class="install p-1  px-2">
+          <a href="" class="text-reset text-decoration-none d-flex align-items-center gap-2">
+            <font-awesome-icon icon="fa-download" />
+            <span>Installa Steam</span>
+          </a>
         </div>
         <div class="actions d-flex ps-2 py-1">
           <a href="" class="text-reset px-2 ms-border text-decoration-none">ACCEDI</a>
           <!-- dropdown -->
           <div class="dropdown">
             <a
-              class=" dropdown-toggle text-reset px-2 text-decoration-none"
+              class="dropdown-toggle text-reset px-2 text-decoration-none"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
