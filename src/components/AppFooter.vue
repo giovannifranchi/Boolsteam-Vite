@@ -33,7 +33,6 @@
                     <small class="text-light mx-1"><a class="text-decoration-none text-light mx-1" href="#">Buoni Regalo</a></small>
                     <small class="text-light mx-1"><a class="text-decoration-none text-light mx-1" href="#"><font-awesome-icon icon="fa-brands fa-facebook" /> Steam</a></small>
                     <small class="text-light mx-1"><a class="text-decoration-none text-light mx-1" href="#"></a><font-awesome-icon icon="fa-brands fa-twitter" />@steam</small>
-
                 </div>
             </div>
         </div>
