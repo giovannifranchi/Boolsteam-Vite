@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container py-5">
         <h3 class="text-white">OFFERTE SPECIALI</h3>
         <div class="row">
             <div class="col-4" v-for="(discounted, index) in getDiscountGames" :key="index">

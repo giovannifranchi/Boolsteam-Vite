@@ -1,5 +1,5 @@
 <template>
-    <div class="ms-card">
+    <div class="ms-card py-5">
         <div class="img-container w-100">
             <img :src="info.thumb" :alt="info.game" class="ms-img">
         </div>
