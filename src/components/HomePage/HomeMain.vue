@@ -11,7 +11,10 @@
   >
     <Navbar :links="links" />
     <h1 class="text-white my-5">Giochi</h1>
-    <SpecialCardVue :info="getHighlightedGame" />
+    <div class="d-flex gap-5">
+        <SpecialCardVue :info="getHighlightedGame" />
+        <CardInfo :info="getHighlightedGame" class="flex-grow-1 p-5 me-3"/>
+    </div>
   </div>
 </template>
 
@@ -19,11 +22,12 @@
 import { mapActions, mapGetters } from "vuex";
 import Navbar from "../utils/Navbar.vue";
 import SpecialCardVue from "../utils/SpecialCard.vue";
+import CardInfo from "../utils/CardInfo.vue";
 
 export default {
   name: "HomeMain",
 
-  components: { Navbar, SpecialCardVue },
+  components: { Navbar, SpecialCardVue, CardInfo },
 
   data() {
     return {
