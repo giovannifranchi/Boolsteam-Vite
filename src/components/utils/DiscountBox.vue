@@ -1,10 +1,10 @@
 <template>
   <div class="d-flex" v-if="discountPercentace">
-    <div class="discount">
-      <span>-{{ discountPercentace }}</span>
+    <div class="discount d-flex justify-content-center align-items-center px-2">
+      <span class="fs-3">-{{ discountPercentace }}%</span>
     </div>
-    <div class="price" >
-      <h6 class="previous-price">{{ price }}$</h6>
+    <div class="price d-flex flex-column  align-items-center p-2" >
+      <h6 class="previous-price mb-0">{{ price }}$</h6>
       <h5 class="active-price">{{ getDiscountedPrice }}$</h5>
     </div>
   </div>
