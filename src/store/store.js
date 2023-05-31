@@ -1,4 +1,5 @@
 import { createStore } from 'vuex';
+import Games from '../api/Games';
 
 const store = createStore({
     state: {
@@ -40,17 +41,17 @@ const store = createStore({
 
     actions: {
         async fetchAllGames({commit}){
-            const response =  null;
+            const response =  await Games.getAllgames();
             commit('setAllGames', response)
         },
 
         async fetchDiscountGames({commit}){
-            const response = null;
+            const response = await Games.getDiscountGames();
             commit('setDiscountGames', response);
         },
 
         async fetchHighlightedGame({commit}){
-            const response = null;
+            const response = await Games.getHighlightedGame();
             commit('setHighlightedGame', response);
         }
     }
