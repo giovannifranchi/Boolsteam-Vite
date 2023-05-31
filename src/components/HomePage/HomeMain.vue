@@ -9,12 +9,14 @@
       backgroundSize: 'cover',
     }"
   >
+  <div class="container">
     <Navbar :links="links" />
     <h1 class="text-white my-5">Giochi</h1>
     <div class="d-flex gap-5">
         <SpecialCardVue :info="getHighlightedGame" />
         <CardInfo :info="getHighlightedGame" class="flex-grow-1 p-5 me-3"/>
     </div>
+  </div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="container">
+        <div class="ms-container">
             <HomeMain/>
         </div>
     </main>
